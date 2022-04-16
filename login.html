@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <title></title>
+  <script
+			  src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+			  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+			  crossorigin="anonymous"></script>
+		
+</head>
+<body>
+		<main class="w-full h-screen bg-purple-600 flex">
+					<div class="w-full md:w-2/6 h-5/6 bg-white m-auto rounded-md flex flex-col" >
+							<section class="w-full text-center p-2 flex-col flex">
+								<i class="fa fa-gamepad my-auto mx-auto text-4xl text-purple-600"></i>
+								<span class="font-semibold mt-4">Login - GamingGearShop</span>
+							</section>
+							<section class="px-16 py-4">
+								<form action="login.html" method="POST">
+									<div class="flex flex-col">
+											<label for="email" class="text-md">Email</label>
+											<input type="email" name="email" required placeholder="Masukan Email" class="border-purple-400 border-2 p-2 rounded-xl">
+									</div>
+									<div class="flex flex-col my-4">
+											<label for="password" class="text-md">Password</label>
+											<input type="password" name="password" required placeholder="Masukan Password" class="border-purple-400 border-2 p-2 rounded-xl">
+									</div>
+									<div class="flex flex-col my-4">
+											<input type="submit" value="Submit" class="bg-purple-600 p-2 text-white font-semibold cursor-pointer">
+									</div>
+									<div class="flex flex-col mt-4">
+											<a href="register.html" class="bg-gray-400 p-2 text-white text-center font-semibold cursor-pointer">Register</a>
+									</div>
+									<div class="flex flex-col mt-4">
+											<a href="index.html" class="bg-green-400 p-2 text-white text-center font-semibold cursor-pointer">Home</a>
+									</div>											
+								</form>
+							</section>
+							<section class="mt-auto mb-8 mx-auto text-gray-800">
+								2022 - Iqbal Rynaldi - GamingGearShop
+							</section>
+					</div>
+		</main>
+</body>
+
+</html>

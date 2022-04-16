@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="assest/css/style.css">
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+</head>
+	<body class="bg-gray-200">
+		<header class="bg-purple-600 h-14 w-full flex p-4">
+			<ul class="flex ml-auto text-xs md:text-md">
+				<a href="index.html" class="mx-4 text-white">Home</a>
+				<a href="about.html" class="mx-4 text-white">About</a>
+				<a href="products.html" class="mx-4 text-white">Products</a>
+				<a href="login.html" class="mx-4 text-white">Login</a>
+			</ul>
+			<a href="keranjang.html" class="fa fa-cart-plus my-auto ml-auto text-white cursor-pointer"></a>
+		</header>
+		<main>
+			<section class="w-full flex my-8 bg-purple-600">
+				<div class="mx-auto text-2xl font-serif text-white">About US</div>
+			</section>
+			<section class="w-full h-auto md:h-80 flex flex-col-reverse md:flex-row">
+				<div class="w-full md:w-2/4 p-8 m-auto">
+					<h3 class="text-xl font-extrabold text-purple-600 mb-8">Apa itu GamingGearShop ?</h3>
+					<div class="text-md text-justify">GamingGearShop adalah sebuah website yang dikembangkan oleh IqbalRynaldi Company Group bertujuan untuk menjual produk gaming diseluruh dunia dengan berbagai merek keren dan harga yang murah.</div>
+				</div>
+				<div class="w-full md:w-2/4 p-8 ">
+					<img src="assest/img/Headset-Logitech.jpeg" class="w-2/4 h-full m-auto rounded-md">
+				</div>
+			</section>
+			<section class="w-full h-auto md:h-80 flex flex-col md:flex-row">
+				<div class="w-full md:w-2/4 p-8">
+					<img src="assest/img/LG.jpg" class="w-2/4 h-full m-auto">
+				</div>
+				<div class="w-full md:w-2/4 p-8 m-auto">
+					<h3 class="text-xl font-extrabold text-purple-600 mb-8">Apa Kelebihan GamingGearShop ?</h3>
+					<div class="text-md text-justify">GamingGearShop menjual berbagai produk seperti Monitor, Mouse, Keyboard, Gamepad, Headset dari berbagi negara. Di website kami bisa langsung belanja tanpa ribet memikirkan ongkir, di GamingGearShop semua gratis ongkir dari belanja 0 rupiah.</div>
+				</div>
+			</section>
+			<section class="p-8 md:w-2/4 mx-auto">
+				<h3 class="text-xl font-extrabold text-purple-600 mb-8">Hubungi Perusahaan </h3>
+				<form >
+					<div class="flex flex-col">
+							<label for="name" class="text-md">Nama</label>
+							<input type="text" name="name" required placeholder="Masukan Nama" class="border-purple-400 border-2 p-2 rounded-xl">
+					</div>
+					<div class="flex flex-col mt-4">
+							<label for="email" class="text-md">Email</label>
+							<input type="email" name="email" required placeholder="Masukan Email" class="border-purple-400 border-2 p-2 rounded-xl">
+					</div>
+					<div class="flex flex-col mt-4">
+							<label for="pesan" class="text-md">Pesan</label>
+							<textarea type="textarea" name="pesan" required placeholder="Masukan Pesan" class="border-purple-400 border-2 p-2 rounded-xl"></textarea>
+					</div>
+					<div class="flex flex-col mt-4">
+							<input type="submit" value="Submit" class="bg-purple-600 p-2 text-white font-semibold cursor-pointer">
+					</div>
+				</form>
+			</section>
+		</main>
+		<footer class="bg-purple-600 h-14 w-full flex p-2 mt-4">
+			<i class="text-md my-auto mx-auto text-white text-center"> Iqbal Rynaldi - GamingGearShop</i>
+		</footer>
+	</body>
+<script
+			  src="https://code.jquery.com/jquery-3.6.0.js"
+			  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+			  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assest/script/products.js"></script>
+</html>

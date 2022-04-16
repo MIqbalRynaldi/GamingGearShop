@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="assest/css/style.css">
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+</head>
+	<body class="bg-gray-200">
+		<header class="bg-purple-600 h-14 w-full flex p-4">
+			<ul class="flex ml-auto text-xs md:text-md">
+				<a href="index.html" class="mx-4 text-white">Home</a>
+				<a href="about.html" class="mx-4 text-white">About</a>
+				<a href="products.html" class="mx-4 text-white">Products</a>
+				<a href="login.html" class="mx-4 text-white">Login</a>
+			</ul>
+			<a href="keranjang.html" class="fa fa-cart-plus my-auto ml-auto text-white cursor-pointer"></a>
+		</header>
+		<main>
+			<section id="fitur-products" class="h-auto w-full">
+
+				<ul class="flex p-4">
+					<li class="mx-auto text-purple-600 text-1xl text-center">Keranjang</li>
+				</ul>
+			</section>
+			<section id="list-products-cart" class="grid grid-cols-1 grid-flow-row gap-4 mt-2 md:grid-cols-4">		
+			</section>
+			<section class="mt-4 w-full flex">
+				<div id="btn-checkout" class="w-2/6 h-12 bg-green-600 m-auto rounded-xl flex cursor-pointer">
+					<span class="m-auto text-md font-bold text-white">Check Out</span>
+				</div>
+			</section>
+		</main>
+		<footer class="bg-purple-600 h-14 w-full flex p-2 mt-4">
+			<i class="text-md my-auto mx-auto text-white text-center"> Iqbal Rynaldi - GamingGearShop</i>
+		</footer>
+	</body>
+	<script
+			  src="https://code.jquery.com/jquery-3.6.0.js"
+			  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+			  crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.8/dist/sweetalert2.all.min.js"></script>
+	<script type="text/javascript" src="assest/script/keranjang.js"></script>
+</html>
