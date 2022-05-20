@@ -1,5 +1,4 @@
-const products = [
-	{
+const products = [{
 		'id' : 1,
 		'Nama' : 'Keyboard Logitech',
 		'Harga' : '500.000',
